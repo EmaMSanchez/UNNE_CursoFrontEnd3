@@ -40,7 +40,7 @@
   }
 
   // Smooth scroll for the navigation and links with .scrollto classes
-  $('.main-nav a, .mobile-nav a, .scrollto, .moovimiento').on('click', function() {
+  $('.main-nav a, .mobile-nav a, .scrollto').on('click', function() {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
       var target = $(this.hash);
       if (target.length) {
